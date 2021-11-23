@@ -1,2 +1,4 @@
-# helmcharts
-Helm Charts Repository
+# Helm Charts Reposiory
+
+Some helm charts to test repo.
+
