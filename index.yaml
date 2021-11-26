@@ -3,11 +3,20 @@ entries:
   firstchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-11-23T22:26:57.964822+01:00"
+    created: "2021-11-26T21:56:36.642434+01:00"
+    description: A Helm chart for Kubernetes
+    digest: d9d0351eb0d9503b671470004f5b467c95264c86c826b611b3ddbfb5eabee711
+    name: firstchart
+    urls:
+    - charts/firstchart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-11-26T21:56:36.64216+01:00"
     description: A Helm chart for Kubernetes
     digest: 0d1ff05e0354506635290fa9eb4f6d146a542a33832b173bfc289c8478f9a319
     name: firstchart
     urls:
     - charts/firstchart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-23T22:26:57.96412+01:00"
+generated: "2021-11-26T21:56:36.641581+01:00"

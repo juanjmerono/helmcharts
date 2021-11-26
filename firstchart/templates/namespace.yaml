@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    field.cattle.io/projectId: {{ .Values.project.rancherId }}
+  labels:
+    author: {{ .Values.project.author }}
+    goldilocks.fairwinds.com/enabled: "true"
+    goldilocks.fairwinds.com/vpa-update-mode: "Off"
+  name: {{ .Values.project.namespace }}
